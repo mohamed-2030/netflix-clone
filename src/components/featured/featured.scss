@@ -1,0 +1,43 @@
+.feautred {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 20px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .featured-movie-info {
+    width: 30%;
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    .desc {
+      color: white;
+      margin: 20px 0px;
+    }
+    .info-buttons {
+      button {
+        padding: 10px 20px;
+        margin-right: 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        .icon {
+          margin-right: 8px;
+          font-size: 16px;
+        }
+        span {
+          font-size: 16px;
+        }
+        &.play {
+          background-color: white;
+        }
+        &.info{
+            background-color: rgb(185, 184, 184);
+        }
+      }
+    }
+  }
+}
